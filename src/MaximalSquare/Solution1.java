@@ -30,7 +30,8 @@ public class Solution1 {
                 if(temp[i][j] == 1){
                     temp[i][j] = Math.min(Math.min(temp[i][j+1],temp[i+1][j]),temp[i+1][j+1]) + 1;
                 }
-                count =(temp[i][j] > count) ? temp[i][j]:count;
+                count =(temp[i][j] > count) ? temp[i][j]:count; 
+                
             }
         }
         return count * count;
