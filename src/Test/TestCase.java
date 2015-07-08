@@ -1,14 +1,18 @@
 package Test;
 
 import CourseSchedule.CourseScheduleBFS;
+import MinimumSizeSubarraySum.MinimumSizeSubarraySumSolution;
 
 public class TestCase {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		CourseScheduleBFS  test = new CourseScheduleBFS();
-		int[][] prerequisites = {{1,0}};
-		test.canFinish(2, prerequisites);
+		//MinimumSizeSubarraySumSolution  test = new MinimumSizeSubarraySumSolution();
+		
+		if('a' > 'Z'){
+			System.out.println("true");
+		}
+	
 	}
 
 }
