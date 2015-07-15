@@ -1,5 +1,7 @@
 package Test;
 
+import java.util.*;
+
 import CourseSchedule.CourseScheduleBFS;
 import MinimumSizeSubarraySum.MinimumSizeSubarraySumSolution;
 
@@ -8,21 +10,18 @@ public class TestCase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//MinimumSizeSubarraySumSolution  test = new MinimumSizeSubarraySumSolution();
-		rangeBitwiseAnd(5,7);
-	
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		list.add(2);
+		list.add(1);
+		list.add(87);
+		int i = 0;
+		while(!list.isEmpty()){
+			System.out.println(list.get(i));
+			i++;
+		}
+		
 	}
-	 public static int rangeBitwiseAnd(int m, int n) {
-	        int offset = 0;
-	        while(m!=n){
-	            m>>=1;
-	            System.out.println(m);
-	            n>>=1;
-	            
-	            offset++;
-	            System.out.println("  "+offset);
-	        }
-	        
-	        return m<<offset;
-	    }
 
 }
