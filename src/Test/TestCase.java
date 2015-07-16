@@ -11,17 +11,19 @@ public class TestCase {
 		// TODO Auto-generated method stub
 		//MinimumSizeSubarraySumSolution  test = new MinimumSizeSubarraySumSolution();
 		
-		ArrayList<Integer> list = new ArrayList<Integer>();
-		list.add(1);
-		list.add(2);
-		list.add(1);
-		list.add(87);
-		int i = 0;
-		while(!list.isEmpty()){
-			System.out.println(list.get(i));
-			i++;
-		}
-		
+//		ArrayList<Integer> list = new ArrayList<Integer>();
+//		list.add(1);
+//		list.add(2);
+//		list.add(1);
+//		list.add(87);
+//		int i = 0;
+//		while(!list.isEmpty()){
+//			System.out.println(list.get(i));
+//			i++;
+//		}
+//		
+		int n = 1;
+		System.out.println(n >> 1 << 1);
 	}
 
 }
